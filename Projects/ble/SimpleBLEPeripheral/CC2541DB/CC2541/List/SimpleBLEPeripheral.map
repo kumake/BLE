@@ -2,18 +2,15 @@
 #                                                                              #
 #      IAR Universal Linker V5.0.2.5/W32                                       #
 #                                                                              #
-#           Link time     =  08/Nov/2015  00:57:58                             #
+#           Link time     =  26/Nov/2015  23:05:59                             #
 #           Target CPU    =  x51                                               #
-#           List file     =  G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\Si #
-#                            mpleBLEPeripheral\CC2541DB\CC2541\List\SimpleBLEP #
-#                            eripheral.map                                     #
-#           Output file 1 =  G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\Si #
-#                            mpleBLEPeripheral\CC2541DB\CC2541\Exe\SimpleBLEPe #
-#                            ripheral.hex                                      #
+#           List file     =  G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC254 #
+#                            1DB\CC2541\List\SimpleBLEPeripheral.map           #
+#           Output file 1 =  G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC254 #
+#                            1DB\CC2541\Exe\SimpleBLEPeripheral.hex            #
 #                            Format: intel-extended                            #
-#           Output file 2 =  G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\Si #
-#                            mpleBLEPeripheral\CC2541DB\CC2541\Exe\SimpleBLEPe #
-#                            ripheral.d51                                      #
+#           Output file 2 =  G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC254 #
+#                            1DB\CC2541\Exe\SimpleBLEPeripheral.d51            #
 #                            Format: debug                                     #
 #                            UBROF version 10.0.3                              #
 #                            Using library modules for C-SPY (-rt)             #
@@ -22,110 +19,85 @@
 #                            -D_NR_OF_BANKS=0x07 -D_CODEBANK_END=0xFFFF        #
 #                            -D_CODEBANK_START=0x8000 -D?CBANK_MASK=0xFF       #
 #                            -D?CBANK=0x9F                                     #
-#                            G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\Li #
-#                            braries\CC2541DB\bin\CC2541_BLE_peri.lib          #
-#                            G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\Li #
-#                            braries\Common\bin\CC254x_BLE_HCI_TL_None.lib     #
-#                            G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\Si #
-#                            mpleBLEPeripheral\CC2541DB\CC2541\Obj\OSAL.r51    #
-#                            G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\Si #
-#                            mpleBLEPeripheral\CC2541DB\CC2541\Obj\OSAL_ClockB #
-#                            LE.r51                                            #
-#                            G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\Si #
-#                            mpleBLEPeripheral\CC2541DB\CC2541\Obj\OSAL_Memory #
-#                            .r51                                              #
-#                            G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\Si #
-#                            mpleBLEPeripheral\CC2541DB\CC2541\Obj\OSAL_PwrMgr #
-#                            .r51                                              #
-#                            G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\Si #
-#                            mpleBLEPeripheral\CC2541DB\CC2541\Obj\OSAL_Simple #
-#                            BLEPeripheral.r51                                 #
-#                            G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\Si #
-#                            mpleBLEPeripheral\CC2541DB\CC2541\Obj\OSAL_Timers #
-#                            .r51                                              #
-#                            G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\Si #
-#                            mpleBLEPeripheral\CC2541DB\CC2541\Obj\OnBoard.r51 #
-#                            G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\Si #
-#                            mpleBLEPeripheral\CC2541DB\CC2541\Obj\SimpleBLEPe #
-#                            ripheral_Main.r51                                 #
-#                            G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\Si #
-#                            mpleBLEPeripheral\CC2541DB\CC2541\Obj\devinfoserv #
-#                            ice.r51                                           #
-#                            G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\Si #
-#                            mpleBLEPeripheral\CC2541DB\CC2541\Obj\function.r5 #
-#                            1                                                 #
-#                            G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\Si #
-#                            mpleBLEPeripheral\CC2541DB\CC2541\Obj\gap.r51     #
-#                            G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\Si #
-#                            mpleBLEPeripheral\CC2541DB\CC2541\Obj\gapbondmgr. #
-#                            r51                                               #
-#                            G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\Si #
-#                            mpleBLEPeripheral\CC2541DB\CC2541\Obj\gatt_uuid.r #
-#                            51                                                #
-#                            G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\Si #
-#                            mpleBLEPeripheral\CC2541DB\CC2541\Obj\hal_adc.r51 #
-#                            G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\Si #
-#                            mpleBLEPeripheral\CC2541DB\CC2541\Obj\hal_aes.r51 #
-#                            G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\Si #
-#                            mpleBLEPeripheral\CC2541DB\CC2541\Obj\hal_crc.r51 #
-#                            G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\Si #
-#                            mpleBLEPeripheral\CC2541DB\CC2541\Obj\hal_dma.r51 #
-#                            G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\Si #
-#                            mpleBLEPeripheral\CC2541DB\CC2541\Obj\hal_drivers #
-#                            .r51                                              #
-#                            G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\Si #
-#                            mpleBLEPeripheral\CC2541DB\CC2541\Obj\hal_flash.r #
-#                            51                                                #
-#                            G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\Si #
-#                            mpleBLEPeripheral\CC2541DB\CC2541\Obj\hal_key.r51 #
-#                            G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\Si #
-#                            mpleBLEPeripheral\CC2541DB\CC2541\Obj\hal_lcd.r51 #
-#                            G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\Si #
-#                            mpleBLEPeripheral\CC2541DB\CC2541\Obj\hal_led.r51 #
-#                            G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\Si #
-#                            mpleBLEPeripheral\CC2541DB\CC2541\Obj\hal_sleep.r #
-#                            51                                                #
-#                            G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\Si #
-#                            mpleBLEPeripheral\CC2541DB\CC2541\Obj\hal_startup #
-#                            .r51                                              #
-#                            G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\Si #
-#                            mpleBLEPeripheral\CC2541DB\CC2541\Obj\hal_timer.r #
-#                            51                                                #
-#                            G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\Si #
-#                            mpleBLEPeripheral\CC2541DB\CC2541\Obj\hal_uart.r5 #
-#                            1                                                 #
-#                            G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\Si #
-#                            mpleBLEPeripheral\CC2541DB\CC2541\Obj\npi.r51     #
-#                            G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\Si #
-#                            mpleBLEPeripheral\CC2541DB\CC2541\Obj\osal_bufmgr #
-#                            .r51                                              #
-#                            G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\Si #
-#                            mpleBLEPeripheral\CC2541DB\CC2541\Obj\osal_cbtime #
-#                            r.r51                                             #
-#                            G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\Si #
-#                            mpleBLEPeripheral\CC2541DB\CC2541\Obj\osal_snv.r5 #
-#                            1                                                 #
-#                            G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\Si #
-#                            mpleBLEPeripheral\CC2541DB\CC2541\Obj\peripheral. #
-#                            r51                                               #
-#                            G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\Si #
-#                            mpleBLEPeripheral\CC2541DB\CC2541\Obj\simpleBLEPe #
-#                            ripheral.r51                                      #
-#                            G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\Si #
-#                            mpleBLEPeripheral\CC2541DB\CC2541\Obj\simpleGATTp #
-#                            rofile.r51                                        #
+#                            G:\www\BLE\Projects\ble\Libraries\CC2541DB\bin\CC #
+#                            2541_BLE_peri.lib                                 #
+#                            G:\www\BLE\Projects\ble\Libraries\Common\bin\CC25 #
+#                            4x_BLE_HCI_TL_None.lib                            #
+#                            G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC254 #
+#                            1DB\CC2541\Obj\OSAL.r51                           #
+#                            G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC254 #
+#                            1DB\CC2541\Obj\OSAL_ClockBLE.r51                  #
+#                            G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC254 #
+#                            1DB\CC2541\Obj\OSAL_Memory.r51                    #
+#                            G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC254 #
+#                            1DB\CC2541\Obj\OSAL_PwrMgr.r51                    #
+#                            G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC254 #
+#                            1DB\CC2541\Obj\OSAL_SimpleBLEPeripheral.r51       #
+#                            G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC254 #
+#                            1DB\CC2541\Obj\OSAL_Timers.r51                    #
+#                            G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC254 #
+#                            1DB\CC2541\Obj\OnBoard.r51                        #
+#                            G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC254 #
+#                            1DB\CC2541\Obj\SimpleBLEPeripheral_Main.r51       #
+#                            G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC254 #
+#                            1DB\CC2541\Obj\devinfoservice.r51                 #
+#                            G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC254 #
+#                            1DB\CC2541\Obj\function.r51                       #
+#                            G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC254 #
+#                            1DB\CC2541\Obj\gap.r51                            #
+#                            G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC254 #
+#                            1DB\CC2541\Obj\gapbondmgr.r51                     #
+#                            G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC254 #
+#                            1DB\CC2541\Obj\gatt_uuid.r51                      #
+#                            G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC254 #
+#                            1DB\CC2541\Obj\hal_adc.r51                        #
+#                            G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC254 #
+#                            1DB\CC2541\Obj\hal_aes.r51                        #
+#                            G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC254 #
+#                            1DB\CC2541\Obj\hal_crc.r51                        #
+#                            G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC254 #
+#                            1DB\CC2541\Obj\hal_dma.r51                        #
+#                            G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC254 #
+#                            1DB\CC2541\Obj\hal_drivers.r51                    #
+#                            G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC254 #
+#                            1DB\CC2541\Obj\hal_flash.r51                      #
+#                            G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC254 #
+#                            1DB\CC2541\Obj\hal_key.r51                        #
+#                            G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC254 #
+#                            1DB\CC2541\Obj\hal_lcd.r51                        #
+#                            G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC254 #
+#                            1DB\CC2541\Obj\hal_led.r51                        #
+#                            G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC254 #
+#                            1DB\CC2541\Obj\hal_sleep.r51                      #
+#                            G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC254 #
+#                            1DB\CC2541\Obj\hal_startup.r51                    #
+#                            G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC254 #
+#                            1DB\CC2541\Obj\hal_timer.r51                      #
+#                            G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC254 #
+#                            1DB\CC2541\Obj\hal_uart.r51                       #
+#                            G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC254 #
+#                            1DB\CC2541\Obj\npi.r51                            #
+#                            G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC254 #
+#                            1DB\CC2541\Obj\osal_bufmgr.r51                    #
+#                            G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC254 #
+#                            1DB\CC2541\Obj\osal_cbtimer.r51                   #
+#                            G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC254 #
+#                            1DB\CC2541\Obj\osal_snv.r51                       #
+#                            G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC254 #
+#                            1DB\CC2541\Obj\peripheral.r51                     #
+#                            G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC254 #
+#                            1DB\CC2541\Obj\simpleBLEPeripheral.r51            #
+#                            G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC254 #
+#                            1DB\CC2541\Obj\simpleGATTprofile.r51              #
 #                            -o                                                #
-#                            G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\Si #
-#                            mpleBLEPeripheral\CC2541DB\CC2541\Exe\SimpleBLEPe #
-#                            ripheral.d51                                      #
+#                            G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC254 #
+#                            1DB\CC2541\Exe\SimpleBLEPeripheral.d51            #
 #                            -l                                                #
-#                            G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\Si #
-#                            mpleBLEPeripheral\CC2541DB\CC2541\List\SimpleBLEP #
-#                            eripheral.map                                     #
+#                            G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC254 #
+#                            1DB\CC2541\List\SimpleBLEPeripheral.map           #
 #                            -xmsn -f                                          #
-#                            G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\Si #
-#                            mpleBLEPeripheral\CC2541DB\..\..\common\cc2540\ti #
-#                            _51ew_cc2540b.xcl                                 #
+#                            G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC254 #
+#                            1DB\..\..\common\cc2540\ti_51ew_cc2540b.xcl       #
 #                            (-D_IDATA_END=0xFF -D_PDATA_START=0x1E00          #
 #                            -D_PDATA_END=0x1EFF -D_IXDATA_START=0x0001        #
 #                            -D_IXDATA_END=0x1EFF                              #
@@ -241,9 +213,9 @@
 #                            -D_NR_OF_VIRTUAL_REGISTERS=10 -D?PBANK=0x93       #
 #                            -e?BCALL_FF=?BCALL -e?BRET_FF=?BRET               #
 #                            -e?BDISPATCH_FF=?BDISPATCH -rt                    #
-#                            -Ointel-extended=G:\蓝牙项目\代码\BLE-CC254x-1.3. #
-#                            2\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC254 #
-#                            1\Exe\SimpleBLEPeripheral.hex                     #
+#                            -Ointel-extended=G:\www\BLE\Projects\ble\SimpleBL #
+#                            EPeripheral\CC2541DB\CC2541\Exe\SimpleBLEPeripher #
+#                            al.hex                                            #
 #                            -s __program_start                                #
 #                            "C:\Program Files\IAR Systems\Embedded Workbench  #
 #                            6.0 Evaluation\8051\LIB\CLIB\cl-pli-blxd-1e16x01. #
@@ -382,7 +354,7 @@ Absolute parts
            _NR_OF_BANKS            00000007 
     *************************************************************************
 
-  FILE NAME : G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\Libraries\CC2541DB\bin\CC2541_BLE_peri.lib
+  FILE NAME : G:\www\BLE\Projects\ble\Libraries\CC2541DB\bin\CC2541_BLE_peri.lib
   LIBRARY MODULE, NAME : att_server
 
   SEGMENTS IN THE MODULE
@@ -15214,7 +15186,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\Libraries\Common\bin\CC254x_BLE_HCI_TL_None.lib
+  FILE NAME : G:\www\BLE\Projects\ble\Libraries\Common\bin\CC254x_BLE_HCI_TL_None.lib
   LIBRARY MODULE, NAME : hci_tl
 
   SEGMENTS IN THE MODULE
@@ -15371,7 +15343,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\OSAL.r51
+  FILE NAME : G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\OSAL.r51
   PROGRAM MODULE, NAME : OSAL
 
   SEGMENTS IN THE MODULE
@@ -15944,7 +15916,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\OSAL_ClockBLE.r51
+  FILE NAME : G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\OSAL_ClockBLE.r51
   PROGRAM MODULE, NAME : OSAL_ClockBLE
 
   SEGMENTS IN THE MODULE
@@ -16013,7 +15985,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\OSAL_Memory.r51
+  FILE NAME : G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\OSAL_Memory.r51
   PROGRAM MODULE, NAME : OSAL_Memory
 
   SEGMENTS IN THE MODULE
@@ -16144,7 +16116,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\OSAL_PwrMgr.r51
+  FILE NAME : G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\OSAL_PwrMgr.r51
   PROGRAM MODULE, NAME : OSAL_PwrMgr
 
   SEGMENTS IN THE MODULE
@@ -16232,7 +16204,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\OSAL_SimpleBLEPeripheral.r51
+  FILE NAME : G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\OSAL_SimpleBLEPeripheral.r51
   PROGRAM MODULE, NAME : OSAL_SimpleBLEPeripheral
 
   SEGMENTS IN THE MODULE
@@ -16290,7 +16262,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\OSAL_Timers.r51
+  FILE NAME : G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\OSAL_Timers.r51
   PROGRAM MODULE, NAME : OSAL_Timers
 
   SEGMENTS IN THE MODULE
@@ -16581,7 +16553,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\OnBoard.r51
+  FILE NAME : G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\OnBoard.r51
   PROGRAM MODULE, NAME : OnBoard
 
   SEGMENTS IN THE MODULE
@@ -16648,7 +16620,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\SimpleBLEPeripheral_Main.r51
+  FILE NAME : G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\SimpleBLEPeripheral_Main.r51
   PROGRAM MODULE, NAME : SimpleBLEPeripheral_Main
 
   SEGMENTS IN THE MODULE
@@ -16681,7 +16653,7 @@ SFR_AN
 
     *************************************************************************
 
-  FILE NAME : G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\devinfoservice.r51
+  FILE NAME : G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\devinfoservice.r51
   PROGRAM MODULE, NAME : devinfoservice
 
   SEGMENTS IN THE MODULE
@@ -17097,7 +17069,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\function.r51
+  FILE NAME : G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\function.r51
   PROGRAM MODULE, NAME : function
 
   SEGMENTS IN THE MODULE
@@ -17360,7 +17332,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\gap.r51
+  FILE NAME : G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\gap.r51
   PROGRAM MODULE, NAME : gap
 
   SEGMENTS IN THE MODULE
@@ -17384,7 +17356,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\gapbondmgr.r51
+  FILE NAME : G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\gapbondmgr.r51
   PROGRAM MODULE, NAME : gapbondmgr
 
   SEGMENTS IN THE MODULE
@@ -18232,7 +18204,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\gatt_uuid.r51
+  FILE NAME : G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\gatt_uuid.r51
   PROGRAM MODULE, NAME : gatt_uuid
 
   SEGMENTS IN THE MODULE
@@ -18394,7 +18366,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\hal_adc.r51
+  FILE NAME : G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\hal_adc.r51
   PROGRAM MODULE, NAME : hal_adc
 
   SEGMENTS IN THE MODULE
@@ -18475,7 +18447,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\hal_aes.r51
+  FILE NAME : G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\hal_aes.r51
   PROGRAM MODULE, NAME : hal_aes
 
   SEGMENTS IN THE MODULE
@@ -18556,7 +18528,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\hal_crc.r51
+  FILE NAME : G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\hal_crc.r51
   PROGRAM MODULE, NAME : hal_crc
 
   SEGMENTS IN THE MODULE
@@ -18577,7 +18549,7 @@ SFR_AN
 
     *************************************************************************
 
-  FILE NAME : G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\hal_dma.r51
+  FILE NAME : G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\hal_dma.r51
   PROGRAM MODULE, NAME : hal_dma
 
   SEGMENTS IN THE MODULE
@@ -18654,7 +18626,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\hal_drivers.r51
+  FILE NAME : G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\hal_drivers.r51
   PROGRAM MODULE, NAME : hal_drivers
 
   SEGMENTS IN THE MODULE
@@ -18746,7 +18718,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\hal_flash.r51
+  FILE NAME : G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\hal_flash.r51
   PROGRAM MODULE, NAME : hal_flash
 
   SEGMENTS IN THE MODULE
@@ -18820,7 +18792,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\hal_key.r51
+  FILE NAME : G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\hal_key.r51
   PROGRAM MODULE, NAME : hal_key
 
   SEGMENTS IN THE MODULE
@@ -19003,10 +18975,10 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\hal_lcd.r51
+  FILE NAME : G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\hal_lcd.r51
     *************************************************************************
 
-  FILE NAME : G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\hal_led.r51
+  FILE NAME : G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\hal_led.r51
   PROGRAM MODULE, NAME : hal_led
 
   SEGMENTS IN THE MODULE
@@ -19199,7 +19171,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\hal_sleep.r51
+  FILE NAME : G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\hal_sleep.r51
   PROGRAM MODULE, NAME : hal_sleep
 
   SEGMENTS IN THE MODULE
@@ -19475,7 +19447,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\hal_startup.r51
+  FILE NAME : G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\hal_startup.r51
   PROGRAM MODULE, NAME : hal_startup
 
   SEGMENTS IN THE MODULE
@@ -19489,16 +19461,16 @@ CSTART
 
     *************************************************************************
 
-  FILE NAME : G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\hal_timer.r51
+  FILE NAME : G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\hal_timer.r51
     *************************************************************************
 
-  FILE NAME : G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\hal_uart.r51
+  FILE NAME : G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\hal_uart.r51
     *************************************************************************
 
-  FILE NAME : G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\npi.r51
+  FILE NAME : G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\npi.r51
     *************************************************************************
 
-  FILE NAME : G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\osal_bufmgr.r51
+  FILE NAME : G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\osal_bufmgr.r51
   PROGRAM MODULE, NAME : osal_bufmgr
 
   SEGMENTS IN THE MODULE
@@ -19589,7 +19561,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\osal_cbtimer.r51
+  FILE NAME : G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\osal_cbtimer.r51
   PROGRAM MODULE, NAME : osal_cbtimer
 
   SEGMENTS IN THE MODULE
@@ -19691,7 +19663,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\osal_snv.r51
+  FILE NAME : G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\osal_snv.r51
   PROGRAM MODULE, NAME : osal_snv
 
   SEGMENTS IN THE MODULE
@@ -20079,7 +20051,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\peripheral.r51
+  FILE NAME : G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\peripheral.r51
   PROGRAM MODULE, NAME : peripheral
 
   SEGMENTS IN THE MODULE
@@ -20667,7 +20639,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\simpleBLEPeripheral.r51
+  FILE NAME : G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\simpleBLEPeripheral.r51
   PROGRAM MODULE, NAME : simpleBLEPeripheral
 
   SEGMENTS IN THE MODULE
@@ -20917,7 +20889,7 @@ BANK_RELAYS
 
     *************************************************************************
 
-  FILE NAME : G:\蓝牙项目\代码\BLE-CC254x-1.3.2\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\simpleGATTprofile.r51
+  FILE NAME : G:\www\BLE\Projects\ble\SimpleBLEPeripheral\CC2541DB\CC2541\Obj\simpleGATTprofile.r51
   PROGRAM MODULE, NAME : simpleGATTprofile
 
   SEGMENTS IN THE MODULE
